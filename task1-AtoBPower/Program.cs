@@ -7,12 +7,13 @@ int Power (int numberA, int numberB)
 {
 int result = 1;
 int index = 1;
-while (index < numberB +1 )
+
+    while (index < numberB +1)
     {
         result = Convert.ToInt32(numberA * result);
         index++;
     }
-return result;
+    return result;
 }
 
 Console.WriteLine("Введите число A: ");
